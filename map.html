@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7996d9e8f68c985cae7379770989f756 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7996d9e8f68c985cae7379770989f756" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7996d9e8f68c985cae7379770989f756 = L.map(
+                "map_7996d9e8f68c985cae7379770989f756",
+                {
+                    center: [39.045753, -76.641273],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c8f7b912753c54f19b97768b68575010 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c8f7b912753c54f19b97768b68575010.addTo(map_7996d9e8f68c985cae7379770989f756);
+        
+    
+            var marker_769bcfd17813f843cef198b1c81bc46b = L.marker(
+                [38.98956913434839, -76.83772275630983],
+                {}
+            ).addTo(map_7996d9e8f68c985cae7379770989f756);
+        
+    
+            var icon_6597614235f0452530e9aa4aef47767d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "heart", "iconColor": "pink", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_769bcfd17813f843cef198b1c81bc46b.setIcon(icon_6597614235f0452530e9aa4aef47767d);
+        
+    
+        var popup_94dc1e61d461f46f1d1ff7b078fe4674 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc219ef2016a7e7c8355cdab7e391f75 = $(`<div id="html_dc219ef2016a7e7c8355cdab7e391f75" style="width: 100.0%; height: 100.0%;"><h1>High Shool</h1><img src ='DuvalHS.png'width = '400px'><p> Duval High school, a place where you can be for 8 hours if you are a student</p></div>`)[0];
+                popup_94dc1e61d461f46f1d1ff7b078fe4674.setContent(html_dc219ef2016a7e7c8355cdab7e391f75);
+            
+        
+
+        marker_769bcfd17813f843cef198b1c81bc46b.bindPopup(popup_94dc1e61d461f46f1d1ff7b078fe4674)
+        ;
+
+        
+    
+    
+            marker_769bcfd17813f843cef198b1c81bc46b.bindTooltip(
+                `<div>
+                     Great school
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84eb33db4322b7d1631e60808895f526 = L.marker(
+                [38.99127813678243, -76.82297682387052],
+                {}
+            ).addTo(map_7996d9e8f68c985cae7379770989f756);
+        
+    
+            var icon_63b8ab94080bc4ac9db84d5dec283047 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "heart", "iconColor": "blue", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_84eb33db4322b7d1631e60808895f526.setIcon(icon_63b8ab94080bc4ac9db84d5dec283047);
+        
+    
+        var popup_5381a0101a5e55b588224cea9ee36c36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eff4c09368bf3d9635bc7356738130aa = $(`<div id="html_eff4c09368bf3d9635bc7356738130aa" style="width: 100.0%; height: 100.0%;"><h1>Monument</h1><img src ='monument.jpeg'width = '400px'><p>a brave and inspiring leader born in a family of 11 with much history left behind </p></div>`)[0];
+                popup_5381a0101a5e55b588224cea9ee36c36.setContent(html_eff4c09368bf3d9635bc7356738130aa);
+            
+        
+
+        marker_84eb33db4322b7d1631e60808895f526.bindPopup(popup_5381a0101a5e55b588224cea9ee36c36)
+        ;
+
+        
+    
+    
+            marker_84eb33db4322b7d1631e60808895f526.bindTooltip(
+                `<div>
+                     General William Tecumseh Sherman 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e25de3f397c9cec56b070c5b1efcc8a6 = L.circle(
+                [38.935199794334864, -76.94104593946385],
+                {"bubblingMouseEvents": true, "color": "Blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30000, "stroke": true, "weight": 3}
+            ).addTo(map_7996d9e8f68c985cae7379770989f756);
+        
+    
+        var popup_3a07ce14436d4b20d5e56e35a632f290 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77d1d9c386f746d368bd97cdc37a0549 = $(`<div id="html_77d1d9c386f746d368bd97cdc37a0549" style="width: 100.0%; height: 100.0%;">great place to go around</div>`)[0];
+                popup_3a07ce14436d4b20d5e56e35a632f290.setContent(html_77d1d9c386f746d368bd97cdc37a0549);
+            
+        
+
+        circle_e25de3f397c9cec56b070c5b1efcc8a6.bindPopup(popup_3a07ce14436d4b20d5e56e35a632f290)
+        ;
+
+        
+    
+</script>
+</html>
