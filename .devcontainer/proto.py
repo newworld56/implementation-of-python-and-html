@@ -6,7 +6,7 @@ def intro():
      name  = str(input("What is your name?: "))
      age = int(input("How old are you?: "))
      #where = input("What are you up to today?: ")
-     print("hello ",name," thanks for chosing us!, how come you are turning ",age+1)
+     print("Hello ",name," thanks for chosing us!, how come you are turning ",age+1)
      print(""" 
                1.care
                2.food
@@ -88,7 +88,7 @@ def intro():
 
 
 
-#list in html
+
      
 
 

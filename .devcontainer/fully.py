@@ -3,7 +3,7 @@ def care():
     lahnam_pharmacy = {"pharmacy_lahnam": [38.9763367139673, -76.84633706392094]}
     lahnam_hospital =  {"hospital" : [38.99341791355472, -76.83585532498573]}
     care_option = input("Enter option?: ")
-    if care_option == "lahnam_hospital":
+    if care_option == "lahnam_pharmacy":
         print(lahnam_pharmacy)
     elif care_option == "lahnam_hospital":
         print(lahnam_hospital)
