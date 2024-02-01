@@ -20,7 +20,8 @@ folium.Marker([38.98956913434839, -76.83772275630983],
 
 lat1 = float(input('Please enter first number of option?: '))
 long1 = float(input("Please enter the second num of option?:  "))
-folium.Marker([lat1,long1], 
+combined = list(lat1,long1)
+folium.Marker(lat1,long1, 
 	popup = "<h1>Monument</h1><img src ='monument.jpeg'width = '400px'><p>a brave and inspiring leader born in a family of 11 with much history left behind </p>",
 	tooltip = 'General William Tecumseh Sherman ',
 	icon = folium.Icon(icon = 'fa-truck',icon_color = 'blue') ).add_to(handy_map)
