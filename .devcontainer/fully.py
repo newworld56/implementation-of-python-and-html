@@ -70,3 +70,7 @@ def work():
 def school():
     study = {"duval_high" : [39.00893171990677, -76.83578943964497]}
     print(study, "please copy this")
+def anther(another):
+    for j in another:
+        j+= 4
+        return j
