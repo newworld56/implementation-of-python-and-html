@@ -72,7 +72,7 @@ def intro():
           fully.school()
      else:
           
-          return False
+          return "your choice is not in our options"
 
 
 
