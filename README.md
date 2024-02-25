@@ -1,1 +1,1 @@
-Project selected for STEAM presentation, Python and html implementation focus on applying gain skills through code here building a set of features helpful to traffic management an prevention of car accidents
+Project selected for STEAM presentation, Python and html implementation focus on applying gain skills through code here building a set of features helpful to traffic management and prevention of car accidents
